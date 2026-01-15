@@ -26,28 +26,37 @@
     <caption>
       Student Roll
     </caption>
-    <tr>
-     <th>
-      Name
-     </th>
-     <th>
-      Roll No
-     </th>
-    </tr>
-    <tr>
+    <thead>
+      <tr>
+       <th colspan="2">
+       Name and Roll
+       </th>
+      </tr>
+    </thead>
+      <tr>
+    <tbody>
       <td>
         Najmul
       </td>
       <td>
         1234
       </td>
-    </tr>
-    <td>
-      Karim
-    </td>
-    <td>
-      1321
-    </td>
+      </tr>
+       <td>
+       Karim
+      </td>
+       <td>
+         1321
+       </td>
+      </tbody>
   </table>
+  <form action="/action.php">
+      <input type="text" placeholder="User Name"> <br>
+      <input type="text" placeholder="Password">
+  </form>
+  <label for="id1">
+    <input type="radio" value="class 1" name="class">class 1 <br>
+    <input type="radio" value="class 2" name="class">class 2
+  </label>
 </body>
 </html>
