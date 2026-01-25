@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <style>
+    input[type="radio"] {
+      accent-color: green;
+    }
+    input[type="checkbox"] {
+      accent-color: green;
+    }
+  </style>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="css.png" type="icon">
   <title>Learning the CSS</title>
@@ -46,6 +54,43 @@
     <input type="text" id="u.name" placeholder="User Name"><br>
     <label id="pass">Password:</label><br>
     <input type="password" id="pass" placeholder="Password">
+    <p> Choose your gender:
+    <input type="radio" id="male" name="Gender">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="Gender">
+    <label for="female">Female</label>
+    </p>
+    <p> 
+      Chose your class : 
+      <input type="radio" id="ssc" name="class">
+      <label for="ssc">SSC</label>
+      <input type="radio" id="hsc" name="class">
+      <label for="hsc">HSC</label>
+      <input type="radio" id="bsc" name="class">
+      <label for="bsc">BSc</label>
+    </p>
+    <p>
+      Chose the subject :
+      <input type="checkbox" id="Chemistry">
+      <label for="Chemistry">Chemistry</label>
+      <input type="checkbox" id="Phisics">
+      <label for="Phisics">Phisics</label>
+      <input type="checkbox" id="Biology">
+      <label for="Biology">Biology</label>
+      <input type="checkbox" id="Math">
+      <label for="Math">Math</label>
+      <input type="checkbox" id="Higher Math">
+      <label for="Higher Math">Higher Math</label>
+    </p>
+    <p>
+      <label for="fruits">Choose a fruit:</label>
+      <select id="fruits" name="fruits">
+       <option value="apple">Apple</option>
+       <option value="banana">Banana</option>
+       <option value="orange">Orange</option>
+      </select>
+    </p>
+
   </form>
  </body>
 </html>
